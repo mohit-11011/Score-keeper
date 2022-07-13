@@ -1,0 +1,57 @@
+body{
+   background-color: grey;
+}
+
+#cnt{
+    width:80%;
+    margin:20px auto;
+}
+.container{
+    border:1px solid black;
+}
+#img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#ttimg{
+    width:50%;
+
+}
+#scorecontainer
+{
+    font-size: large;
+   text-align: center;
+}
+button{
+    width:33%;
+    padding:15px;
+}
+#score{
+    font-size: x-large;
+}
+#player1{
+    background-color: green;
+    font-size: 20px;
+}
+#player2{
+    background-color:blue;
+    font-size: 20px;
+}
+#reset{
+    background-color:rebeccapurple;
+    font-size: 20px;
+}
+.winner{
+    color:green;
+}
+.looser{
+    color:red;
+}
+button:disabled{
+    background-color: #B89EA5 !important;
+    text-decoration:line-through;
+}
+
+
